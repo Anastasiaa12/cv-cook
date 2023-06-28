@@ -5,7 +5,10 @@
 
 .header {
     background: url("./img/header6.png");
-    height: 754px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
 }
 
 .container {
@@ -48,7 +51,7 @@
 /* Header-descr */
 
 .header-descr {
-    padding: 110px;
+    padding: 210px;
 }
 
 .header-descr--text {
