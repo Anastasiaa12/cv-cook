@@ -105,7 +105,7 @@
     font-weight: 700;
     font-size: 48px;
     line-height: 63px;
-    color: red;
+    color: #fff;
 }
 
 .main-photo {
@@ -394,5 +394,10 @@
     line-height: 32px;
     color: #000000;
     text-decoration: none;
+}
+
+/* gallery page */
+.header__gallery {
+    background-color: #191D20;
 }
 
