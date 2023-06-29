@@ -11,6 +11,20 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto+Slab:wght@400;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css"
+  />
+    
+
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    /> -->
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -22,9 +36,9 @@
           </div>
           <div class="nav">
             <ul class="header-item">
-              <li class="header-list"><a href=""> Главная</a></li>
+              <li class="header-list"><a href="index.html"> Главная</a></li>
               <li class="header-list">
-                <a href="index.html#about"> Обо мне</a>
+                <a href="index.html#about"> О себе</a>
               </li>
               <li class="header-list">
                 <a href="index.html#skills"> Навыки</a>
@@ -42,9 +56,10 @@
     </header>
 
     <main class="main">
-      <section class="gallery" id="gallery">
+      <div class="container">
+        <!-- <section class="gallery" id="gallery">
         <div class="container">
-          <h1>Gallery my work</h1>
+          <h1>Мои работы</h1>
 
           <div class="img-container">
             <div class="img">
@@ -83,12 +98,97 @@
             >Посмотреть больше</a
           >
         </div>
+      </section> -->
+        <!-- <div class="gallery__photo">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div
+                class="swiper-slide"
+                style="background-image: url(img/slide1.jpg)"
+              ></div>
+              <div
+                class="swiper-slide"
+                style="background-image: url(img/slide2.jpg)"
+              ></div>
+              <div
+                class="swiper-slide"
+                style="background-image: url(img/slide3.jpg)"
+              ></div>
+              <div
+                class="swiper-slide"
+                style="background-image: url(img/arabiata.jpg)"
+              ></div>
+              <div
+                class="swiper-slide"
+                style="background-image: url(img/bolognese.jpg)"
+              ></div>
+              <div
+                class="swiper-slide"
+                style="background-image: url(img/carbonara.jpg)"
+              ></div>
+              <div
+                class="swiper-slide"
+                style="background-image: url(img/pizza1.jpg)"
+              ></div>
+              <div
+                class="swiper-slide"
+                style="background-image: url(img/pizza2.jpg)"
+              ></div>
+              <div
+                class="swiper-slide"
+                style="background-image: url(img/pizza3.jpg)"
+              ></div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div> -->
+      <div class="gallery__photo">
+      <section class="gallery">
+        <h2 class="title">Gallery</h2>
+        <div class="gallery-list">
+          <a href="img/pizza1.jpg" class="gallery-item">
+            <div class="gallery-item-hover">Посмотреть</div>
+            <img src="img/pizza1.jpg" alt="alt">
+          </a>
+          <a href="img/pizza2.jpg" class="gallery-item">
+            <div class="gallery-item-hover">Посмотреть</div>
+            <img src="img/pizza2.jpg" alt="alt">
+          </a>
+          <a href="img/burger1.jpg" class="gallery-item">
+            <div class="gallery-item-hover">Посмотреть</div>
+            <img src="img/burger1.jpg" alt="alt">
+          </a>
+          <a href="img/burger2.jpg" class="gallery-item">
+            <div class="gallery-item-hover">Посмотреть</div>
+            <img src="img/burger2.jpg" alt="alt">
+          </a>
+          <a href="img/burger3.jpg" class="gallery-item">
+            <div class="gallery-item-hover">Посмотреть</div>
+            <img src="img/burger3.jpg" alt="alt">
+          </a>
+          <a href="img/slide3.jpg" class="gallery-item">
+            <div class="gallery-item-hover">Посмотреть</div>
+            <img src="img/slide3.jpg" alt="alt">
+          </a>
+          <a href="img/slide2.jpg" class="gallery-item">
+            <div class="gallery-item-hover">Посмотреть</div>
+            <img src="img/slide2.jpg" alt="alt">
+          </a>
+          <a href="img/slide1.jpg" class="gallery-item">
+            <div class="gallery-item-hover">Посмотреть</div>
+            <img src="img/slide1.jpg" alt="alt">
+          </a>
+        </div>
       </section>
+    </div>
     </main>
 
     <footer class="footer" id="contact">
       <div class="container">
-        <h1>Contact me</h1>
+        <h1>Контакты</h1>
         <div class="footer-about">
           <div class="footer-contact">
             <a class="footer-phone" href="tel:+79001111111">+7-900-111-11-11</a>
@@ -108,6 +208,10 @@
       </div>
     </footer>
 
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
     <script src="main.js"></script>
   </body>
 </html>
