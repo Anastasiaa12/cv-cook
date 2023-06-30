@@ -28,6 +28,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <wrapper class="wrapper">
     <header class="header__gallery">
       <div class="container">
         <div class="header-page">
@@ -147,7 +148,7 @@
       </div> -->
       <div class="gallery__photo">
       <section class="gallery">
-        <h2 class="title">Gallery</h2>
+        <h2 class="title">Галерея</h2>
         <div class="gallery-list">
           <a href="img/pizza1.jpg" class="gallery-item">
             <div class="gallery-item-hover">Посмотреть</div>
@@ -207,11 +208,22 @@
         </div>
       </div>
     </footer>
+  </wrapper>
 
     <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script> -->
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
     crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
     <script src="main.js"></script>
+
+    <script>
+      $(".gallery-list").magnificPopup({
+        delegate: "a",
+        type: "image",
+        gallery: {
+          enabled: true,
+        },
+      });
+    </script>
   </body>
 </html>
