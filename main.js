@@ -1,4 +1,5 @@
 // swiper
+
 // const swiper = new Swiper(".mySwiper", {
 //   cssMode: true,
 //   navigation: {
@@ -21,13 +22,6 @@
 //     disableOnInteraction: false,
 //   },
 // });
-$(".gallery-list").magnificPopup({
-  delegate: "a",
-  type: "image",
-  gallery: {
-    enabled: true,
-  },
-});
 
 document.querySelectorAll(".img-container img").forEach((img) => {
   img.onclick = () => {
