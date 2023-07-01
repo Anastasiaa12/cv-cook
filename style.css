@@ -485,6 +485,17 @@ section.gallery{
     height: auto;
     transition: all .5s ease;
   }
+
+  /* media */
+  @media (max-width: 2200px){
+    .header-page {
+        padding: 80px;
+    } 
+    .logo {
+        font-size: 50px;
+    }
+  }
+
   @media (max-width: 991px){
     .gallery-item{
       flex: 33.3%;
